@@ -12,7 +12,7 @@ const Head = () => {
     <div className="grid grid-flow-col p-5 m-2 shadow-lg">
       <div className="flex col-span-1">
         <img
-         onClick={toggleMenuHandler()}
+         onClick={()=>toggleMenuHandler()}// =>
           className="h-8 cursor-pointer"
           alt="menu"
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAbFBMVEXz9fT09PQzMzPy8vL29vY4ODgrKyvv7+8vLy8mJiZMTEzW1tb///+wsLD5+/rx8/I7PTzj5eRGSEeHiYgkJCR/gYAoKimbnZw6PDvq6uri5OPO0M8/QUAiJCNkZmXb3dxvcXAdHR3HychTVVQHeaVBAAADUklEQVR4nO3b3W6jMBAFYGNsxiTeMSEJxflpmvb933FtN6y2Um9WHUAbnU9tLsc9GAJ2B6UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvhHST1DMlZBUqa6rql4rDkkFiY9KK2RI82FUMEKoSh9pTlYIQiFlUbUQk86smlYIwoZZUWCxIDUZNoYXDxIjKUUUpILUkdL5FePiQTwr7z17MbmUYb94kNP7rxm8nxYLQF4RB3/+sNdhuF5dK8QdDk3b2s3ZByblaf4kpnwer4PuLp0VlMrp5nD8a5BZpa8VHxRZ3XV6GLR2QrRu2lzTkgq+DDO7wOlm2A/OjqO1Wmo+Pgu5ps832rBADEqnLxO/6Ov96tzgGiGuca69H/RLKl4GmT0IhzSMj/vXvt/0m4+NkI9UrO9f9zEVp3y9z80ETsOk23pIM6PijoTsYsUV1cwmHSoO81/tfufzcxalp8V8Niuph8byyJh+U+XHIAAAAAAAAN/jmSwYIa3eiLy/bU/n820r5nY+n7Zb74nSKnSZIEEFvr31zjk7Oi3EjTYV7N9uHPIIyyRJQfb3Yex046xUEO0a3dnmvs9BlkmRRorU6VE7LRcjsaVgR7HsnCHIP2V5hlPriS72p/n6/fQEN8SvpLYZp/+3rxZEqmFg9SBSMzL574OsPiNPc2pJBVj91JIKMkEQBEEQBEEQBPkvgvDJ52UPBcO5xVTwobGqKzZUejf8bv51icktNcTsQ0xr0hilWjhSpaqm2nMpv8ASMeQOOvK7/Wt/6WWbavrcVLPzkSks0R30aHNy1/ug3TBItTk1jdPN/eBefFimzSk3OuXGs9aNl0tnnVTjmbPd5TK6dqNKi978SitgiNZeLm5otJVrBXSt6zprYwhpgPkvds7XewjHYdBjN+ZuQCkphWuaY97UWqQVkENul91udGmXHaTaZdtD27QHvdl6tUwH3WQ3TwPzbrEAE89Grp18skZLeYxl6/THr12EB1W2Sldo8i/bm+Hnr11MQbi86LTGlunncTRSQcyj4CqYf/5q0p/jolbcwJZ4WWyqRCtNRkkh8freVKxccetl+fnCas2//QsEQZCZIAiCzORpggAAAAAAAAAAAAAAAAAAAAAAAAAAAMDsfgNFgH00igMk8QAAAABJRU5ErkJggg=="
