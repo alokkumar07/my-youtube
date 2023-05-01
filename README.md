@@ -1,4 +1,4 @@
-
+ Demo:https://youtube-clone-alokkumar.netlify.app/
 I'm thrilled to share my latest project with you all - a YouTube clone that I've built from the ground up!
 
 With over 2 billion monthly active users, YouTube has become an essential part of our digital lives.
@@ -17,4 +17,3 @@ Here's a quick rundown of the tech stack I used to create my YouTube clone:
 - react redux - for state management
 If you're interested in checking out my YouTube clone, head over to DEMO:https://youtu.be/fLWFylZa1fw to see it in action! And as always, feel free to reach out if you have any questions or feedback.
 
-live:https://alok-kumar-youtubeclone.netlify.app/
